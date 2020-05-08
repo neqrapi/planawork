@@ -1,0 +1,99 @@
+.nav-background{
+    
+    background-color:#17191D ;
+    opacity: 0.9;
+}
+.nav-logo{
+    width: 200px;
+    margin-left: -18rem;
+    background-color:goldenrod;
+    color:white;
+    transform: skew(20deg, 0deg);
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.nav-skew1{
+    transform: skew(-20deg, 0deg);
+    font-size: large;
+}
+.nav-r{
+    margin-left: 70rem;
+}
+.nav-r2{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-left: 70rem;
+}
+.dashboard-left{
+    
+    width: 50%;
+    height:100% ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#17191D;
+  
+    
+    opacity: 0.9;
+}
+.dashboard-right{
+    height: 100%;
+    
+    width: 50%;
+    
+    background-color:#17191D; 
+   
+    opacity: 0.9;
+    
+}
+.project-title{
+    font-size: large;
+    color: white;
+}
+.date{
+    font-size: small;
+    color:black;
+}
+.postedby{
+    color: white;
+}
+.dashboard-r{
+    
+    display: flex;
+    flex-direction: row;
+    background-color:#17191D ;
+    
+    align-content: space-between;
+    
+}
+.ProjectListSec{
+    margin-top: 3rem;
+    width: 200px;
+    background: goldenrod;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    
+}
+.dashboard{
+    height: 100vh;
+    background-color:#17191D ;
+    opacity: 0.9;
+    
+}
+.ProjectList{
+    display: flex;
+    flex-direction: column;
+    align-items: space-be;
+    justify-content: center;
+}
