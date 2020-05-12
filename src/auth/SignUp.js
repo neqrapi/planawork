@@ -21,25 +21,25 @@ class SignUp extends Component {
             <div className="signup">
                 
                 <form onSubmit={this.handleSubmit} className="whie">
-                <h5 className="title-nav">Sign Up</h5>
+                <h5 className="signup-title">Sign Up</h5>
                 <div className="inputnav">
-                <label htmlFor="email">Email</label>
+                <label htmlFor="email" className='signup-label-text'>Email</label>
                 <input type="email" id= "email" onChange={this.handleChange}/>
                 </div>
                 <div className="inputnav">
-                <label htmlFor="firstName">First Name</label>
+                <label htmlFor="firstName"className='signup-label-text'>First Name</label>
                 <input type="text" id= "firstName" onChange={this.handleChange}/>
                 </div>
                 <div className="inputnav">
-                <label htmlFor="lastName">Last Name</label>
+                <label htmlFor="lastName"className='signup-label-text'>Last Name</label>
                 <input type="text" id= "lastName" onChange={this.handleChange}/>
                 </div>
                 <div className="inputnav">
-                <label htmlFor="password">Password</label>
+                <label htmlFor="password" className='signup-label-text'>Password</label>
                 <input type="password" id= "password" onChange={this.handleChange}/>
                 </div>
                 <div className="inputnav">
-                    <button className='navbutton'>Login</button>
+                    <button className='button-signup'>Login</button>
                 </div>
                 </form>
             </div>
