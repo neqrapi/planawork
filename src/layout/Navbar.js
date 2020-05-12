@@ -8,7 +8,7 @@ import SignedOutLinks from './SignedOutLinks'
          <nav className='nav-background'>
              <div className="container">
                  
-                 <Link to='/' className="nav-logo"> <div className="nav-skew1">Plan a Work</div></Link>
+                 <Link to='/' className="nav-logo"> <div className="nav-skew1">Work Planner</div></Link>
                  <SignedInLinks/>
                  <SignedOutLinks/>
                  
